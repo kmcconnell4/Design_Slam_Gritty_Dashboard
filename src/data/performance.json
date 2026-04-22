@@ -1,0 +1,40 @@
+{
+  "teamUtilizationTarget": 80,
+  "teamUtilizationActual": 76,
+  "revenueSold": 1420000,
+  "managedRevenue": 3800000,
+  "revenueTarget": 1500000,
+  "managedRevenueTarget": 4000000,
+  "individualMetrics": [
+    {
+      "consultantId": "c1",
+      "revenueSold": 220000,
+      "managedRevenue": 580000
+    },
+    {
+      "consultantId": "c2",
+      "revenueSold": 360000,
+      "managedRevenue": 840000
+    },
+    {
+      "consultantId": "c3",
+      "revenueSold": 180000,
+      "managedRevenue": 510000
+    },
+    {
+      "consultantId": "c4",
+      "revenueSold": 210000,
+      "managedRevenue": 620000
+    },
+    {
+      "consultantId": "c5",
+      "revenueSold": 130000,
+      "managedRevenue": 410000
+    },
+    {
+      "consultantId": "c6",
+      "revenueSold": 320000,
+      "managedRevenue": 840000
+    }
+  ]
+}

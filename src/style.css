@@ -1,0 +1,54 @@
+@import '@mdi/font/css/materialdesignicons.css';
+
+:root {
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(circle at 15% 0%, rgba(244, 123, 32, 0.18), transparent 36%),
+    linear-gradient(165deg, #1a1a2e 0%, #10162a 70%, #0f1527 100%);
+  color: #eaeaea;
+}
+
+.tabs-shell {
+  position: sticky;
+  top: 76px;
+  z-index: 9;
+  background: rgba(26, 26, 46, 0.95);
+  border-bottom: 1px solid rgba(234, 234, 234, 0.14);
+  backdrop-filter: blur(6px);
+}
+
+.section-tabs {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.page-shell {
+  width: min(1320px, calc(100vw - 28px));
+  margin: 26px auto 38px;
+  display: grid;
+  gap: 24px;
+}
+
+@media (max-width: 960px) {
+  .tabs-shell {
+    top: 124px;
+  }
+}

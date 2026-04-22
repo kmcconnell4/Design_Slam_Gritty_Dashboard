@@ -1,0 +1,98 @@
+[
+  {
+    "id": "c1",
+    "name": "Marcus Webb",
+    "title": "Senior Consultant",
+    "skills": ["Change Management", "Workday", "PMO"],
+    "client": "Jefferson Health",
+    "projectEndDate": "2026-05-30",
+    "rollingSoon": true,
+    "utilization": {
+      "actual": 85,
+      "target": 80
+    },
+    "pto": [
+      { "start": "2026-05-05", "end": "2026-05-09", "note": "Family vacation" }
+    ],
+    "bio": "8 years in healthcare transformation. Strong facilitator."
+  },
+  {
+    "id": "c2",
+    "name": "Lena Ortiz",
+    "title": "Manager",
+    "skills": ["Finance Transformation", "SAP", "PMO"],
+    "client": "Comcast",
+    "projectEndDate": "2026-08-22",
+    "rollingSoon": false,
+    "utilization": {
+      "actual": 92,
+      "target": 85
+    },
+    "pto": [],
+    "bio": "Leads multi-workstream delivery with a focus on measurable operating gains."
+  },
+  {
+    "id": "c3",
+    "name": "Devon Price",
+    "title": "Consultant",
+    "skills": ["Data Analytics", "Power BI", "Stakeholder Engagement"],
+    "client": "Temple University",
+    "projectEndDate": "2026-06-10",
+    "rollingSoon": true,
+    "utilization": {
+      "actual": 73,
+      "target": 80
+    },
+    "pto": [
+      { "start": "2026-06-25", "end": "2026-06-27", "note": "Wedding" }
+    ],
+    "bio": "Builds executive-ready dashboards and translates data into operating actions."
+  },
+  {
+    "id": "c4",
+    "name": "Priya Nair",
+    "title": "Senior Consultant",
+    "skills": ["Organizational Design", "Change Management", "Healthcare"],
+    "client": "Main Line Health",
+    "projectEndDate": "2026-07-01",
+    "rollingSoon": false,
+    "utilization": {
+      "actual": 78,
+      "target": 80
+    },
+    "pto": [],
+    "bio": "Specializes in large-scale org redesign and leadership alignment."
+  },
+  {
+    "id": "c5",
+    "name": "Tariq Benson",
+    "title": "Consultant",
+    "skills": ["Supply Chain", "Transportation", "Process Improvement"],
+    "client": "SEPTA",
+    "projectEndDate": "2026-04-28",
+    "rollingSoon": true,
+    "utilization": {
+      "actual": 65,
+      "target": 78
+    },
+    "pto": [
+      { "start": "2026-05-15", "end": "2026-05-18", "note": "Personal time" }
+    ],
+    "bio": "Known for rapid process diagnostics and practical implementation plans."
+  },
+  {
+    "id": "c6",
+    "name": "Erin Shaw",
+    "title": "Principal",
+    "skills": ["Public Sector", "Operating Model", "PMO"],
+    "client": "City of Philadelphia",
+    "projectEndDate": "2026-09-15",
+    "rollingSoon": false,
+    "utilization": {
+      "actual": 88,
+      "target": 82
+    },
+    "pto": [],
+    "bio": "Public-sector strategist with deep Philly metro stakeholder networks."
+  }
+]

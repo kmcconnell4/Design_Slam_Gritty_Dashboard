@@ -1,0 +1,86 @@
+[
+  {
+    "id": "o1",
+    "roleTitle": "OCM Lead",
+    "client": "SEPTA",
+    "startDate": "2026-06-15",
+    "requiredSkills": ["Change Management", "Stakeholder Engagement"],
+    "preferredSkills": ["Transportation", "PMO"],
+    "matches": [
+      {
+        "consultantId": "c1",
+        "fitScore": 92,
+        "reasons": [
+          "Skills match: Change Management, PMO",
+          "Available by project start date",
+          "Prior public sector experience"
+        ]
+      },
+      {
+        "consultantId": "c4",
+        "fitScore": 88,
+        "reasons": [
+          "Strong organizational design and OCM history",
+          "Healthcare and regulated-environment credibility",
+          "Proven workshop facilitation with leadership teams"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "o2",
+    "roleTitle": "PMO Workstream Manager",
+    "client": "Penn Medicine",
+    "startDate": "2026-07-06",
+    "requiredSkills": ["PMO", "Executive Reporting"],
+    "preferredSkills": ["Healthcare", "Workday"],
+    "matches": [
+      {
+        "consultantId": "c6",
+        "fitScore": 90,
+        "reasons": [
+          "High utilization history with strong delivery outcomes",
+          "Experienced with cross-agency governance models",
+          "Can mentor junior team members on PMO rigor"
+        ]
+      },
+      {
+        "consultantId": "c1",
+        "fitScore": 85,
+        "reasons": [
+          "Direct Workday and PMO delivery experience",
+          "Project end date aligns with role start",
+          "Strong client communication track record"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "o3",
+    "roleTitle": "Supply Chain Optimization Consultant",
+    "client": "Port of Philadelphia",
+    "startDate": "2026-05-20",
+    "requiredSkills": ["Supply Chain", "Process Improvement"],
+    "preferredSkills": ["Transportation", "Data Analytics"],
+    "matches": [
+      {
+        "consultantId": "c5",
+        "fitScore": 94,
+        "reasons": [
+          "Topical expertise in transportation process mapping",
+          "Likely to roll off current project before start",
+          "Has led rapid diagnostics in complex operations"
+        ]
+      },
+      {
+        "consultantId": "c3",
+        "fitScore": 80,
+        "reasons": [
+          "Analytics capability supports throughput insights",
+          "Strong stakeholder engagement style",
+          "Potential stretch opportunity with coaching"
+        ]
+      }
+    ]
+  }
+]
