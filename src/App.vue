@@ -1,10 +1,15 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, defineAsyncComponent, ref } from 'vue'
 import AppHeader from './components/AppHeader.vue'
 import GlobalFilter from './components/GlobalFilter.vue'
-import MatchmakerSection from './components/matchmaker/MatchmakerSection.vue'
-import PerformanceSection from './components/performance/PerformanceSection.vue'
 import RosterSection from './components/roster/RosterSection.vue'
+
+const PerformanceSection = defineAsyncComponent(
+  () => import('./components/performance/PerformanceSection.vue'),
+)
+const MatchmakerSection = defineAsyncComponent(
+  () => import('./components/matchmaker/MatchmakerSection.vue'),
+)
 import { useGlobalFilter } from './composables/useGlobalFilter'
 import consultantsData from './data/consultants.json'
 import opportunitiesData from './data/opportunities.json'

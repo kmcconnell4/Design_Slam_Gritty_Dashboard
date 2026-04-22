@@ -1,7 +1,12 @@
 @import '@mdi/font/css/materialdesignicons.css';
 
 :root {
+  --gritty-orange: #F47B20;
+  --gritty-orange-dim: rgba(244, 123, 32, 0.22);
+
   font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -21,18 +26,44 @@ body,
 
 body {
   background:
-    radial-gradient(circle at 15% 0%, rgba(244, 123, 32, 0.18), transparent 36%),
-    linear-gradient(165deg, #1a1a2e 0%, #10162a 70%, #0f1527 100%);
+    radial-gradient(ellipse 60% 40% at 5% 0%, rgba(244, 123, 32, 0.2), transparent 55%),
+    radial-gradient(ellipse 40% 30% at 95% 80%, rgba(244, 123, 32, 0.08), transparent 50%),
+    linear-gradient(160deg, #141428 0%, #0e1220 55%, #0a0e1a 100%);
   color: #eaeaea;
 }
 
+/* ---- Section header shared treatment ---- */
+.section-header {
+  border-left: 4px solid var(--gritty-orange);
+  padding-left: 14px;
+}
+
+.section-header h2 {
+  margin: 0;
+  font-family: 'Roboto Condensed', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.05rem;
+  letter-spacing: 0.18em;
+  font-weight: 800;
+  color: #eaeaea;
+  text-transform: uppercase;
+}
+
+.section-header p {
+  margin: 5px 0 0;
+  font-size: 0.8rem;
+  opacity: 0.65;
+  letter-spacing: 0.04em;
+}
+
+/* ---- Tab bar ---- */
 .tabs-shell {
   position: sticky;
   top: 76px;
   z-index: 9;
-  background: rgba(26, 26, 46, 0.95);
-  border-bottom: 1px solid rgba(234, 234, 234, 0.14);
-  backdrop-filter: blur(6px);
+  background: rgba(14, 18, 32, 0.96);
+  border-top: 2px solid var(--gritty-orange);
+  border-bottom: 1px solid rgba(244, 123, 32, 0.18);
+  backdrop-filter: blur(8px);
 }
 
 .section-tabs {
@@ -42,9 +73,9 @@ body {
 
 .page-shell {
   width: min(1320px, calc(100vw - 28px));
-  margin: 26px auto 38px;
+  margin: 28px auto 48px;
   display: grid;
-  gap: 24px;
+  gap: 32px;
 }
 
 @media (max-width: 960px) {

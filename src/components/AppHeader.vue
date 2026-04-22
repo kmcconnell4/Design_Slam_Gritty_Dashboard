@@ -9,20 +9,24 @@ defineProps<{
   <VAppBar color="surface" flat height="76" class="app-header">
     <div class="header-shell">
       <div class="brand-wrap">
-        <VIcon icon="mdi-hockey-puck" color="primary" size="20" />
-        <h1 class="brand-title">{{ title }}</h1>
+        <VIcon icon="mdi-hockey-puck" color="primary" size="28" />
+        <div class="brand-block">
+          <h1 class="brand-title">{{ title }}</h1>
+          <span class="brand-sub">PEOPLE LEADER VIEW</span>
+        </div>
       </div>
       <div class="filter-slot">
         <slot />
       </div>
-      <VChip color="primary" variant="outlined" class="market-chip">{{ market }}</VChip>
+      <VChip color="primary" variant="flat" class="market-chip" prepend-icon="mdi-map-marker">{{ market }}</VChip>
     </div>
   </VAppBar>
 </template>
 
 <style scoped>
 .app-header {
-  border-bottom: 1px solid rgba(234, 234, 234, 0.15);
+  border-bottom: 1px solid rgba(244, 123, 32, 0.25);
+  background: linear-gradient(90deg, rgba(244, 123, 32, 0.07) 0%, transparent 40%) !important;
 }
 
 .header-shell {
@@ -37,15 +41,30 @@ defineProps<{
 .brand-wrap {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
+}
+
+.brand-block {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
 }
 
 .brand-title {
   margin: 0;
-  font-size: 1rem;
-  letter-spacing: 0.08em;
+  font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 0.14em;
   font-weight: 800;
-  color: rgb(var(--v-theme-on-surface));
+  color: #eaeaea;
+}
+
+.brand-sub {
+  font-size: 0.6rem;
+  letter-spacing: 0.22em;
+  font-weight: 600;
+  color: #F47B20;
+  opacity: 0.85;
 }
 
 .filter-slot {
@@ -54,7 +73,8 @@ defineProps<{
 
 .market-chip {
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
 }
 
 @media (max-width: 960px) {

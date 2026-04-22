@@ -29,17 +29,4 @@ const expandedRows = ref<string[]>([])
   display: grid;
   gap: 14px;
 }
-
-.section-header h2 {
-  margin: 0;
-  font-size: 0.94rem;
-  letter-spacing: 0.11em;
-  font-weight: 800;
-}
-
-.section-header p {
-  margin: 4px 0 0;
-  opacity: 0.75;
-  font-size: 0.86rem;
-}
 </style>
