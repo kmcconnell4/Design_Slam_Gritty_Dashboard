@@ -13,7 +13,7 @@ const grittyTheme = {
     secondary: '#16213E',
     success: '#4CAF50',
     warning: '#FFC107',
-    error: '#F44336',
+    error: '#FF6B6B',
     info: '#2196F3',
   },
 }

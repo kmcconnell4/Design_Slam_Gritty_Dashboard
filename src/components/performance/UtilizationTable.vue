@@ -74,6 +74,6 @@ const rows = computed(() =>
 }
 
 .negative {
-  color: #f44336;
+  color: #ff6b6b;
 }
 </style>

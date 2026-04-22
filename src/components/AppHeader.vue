@@ -60,11 +60,10 @@ defineProps<{
 }
 
 .brand-sub {
-  font-size: 0.6rem;
-  letter-spacing: 0.22em;
-  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  font-weight: 700;
   color: #F47B20;
-  opacity: 0.85;
 }
 
 .filter-slot {
